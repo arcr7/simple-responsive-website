@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Responsive Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400"
+      rel="stylesheet"
+    />
+    <!--Video FanyBox-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+  </head>
+  <body class="body">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+      <div class="container-fluid">
+        <Span>Website Title</Span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactUS">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Image Slider with images-->
+    <div id="home" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#home" data-slide-to="0" class="active"></li>
+        <li data-target="#home" data-slide-to="1"></li>
+        <li data-target="#home" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100 h-100 img-fluid"
+            src="img/image1.jpg"
+            alt="First slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100 h-100 img-fluid"
+            src="img/image2.jpg"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100 h-100 img-fluid"
+            src="img/image1.jpg"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#home"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#home"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!--About Us-->
+    <p class="type-title-p" id="aboutUs">About us</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-12">
+          <p>
+            About the company.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Images,card images-->
+    <p class="type-title-p" id="frames">The Snapshots</p>
+    <div class="container">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img/image2.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Image-1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="pages/images.html" class="btn btn-explore">Explore</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/image1.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Image-2</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="pages/images.html" class="btn btn-explore">Explore</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/image2.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Image-3</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="pages/images.html" class="btn btn-explore">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck card-height">
+        <div class="card">
+          <img class="card-img-top" src="img/image1.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Image-4</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="pages/images.html" class="btn btn-explore">Explore</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/image2.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Image-5</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="pages/images.html" class="btn btn-explore">Explore</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/image1.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Image-6</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="images.html" class="btn btn-explore">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Films-->
+    <div class="container" id="films">
+      <p class="type-title-p">The Stories</p>
+      <div class="row ">
+        <div class="col-sm-6 col-lg-4 reel-row">
+          <a
+            data-fancybox="bigbuckbunny"
+            data-width="1200"
+            data-height="680"
+            href="https://www.youtube.com/embed/x6qSMzUluTY"
+            style="text-decoration: none;"
+            class="card-hover"
+          >
+            <img
+              class="card-img-top"
+              src="img/image1.jpg"
+              alt="Card image cap"
+            />
+            <div class="middle">
+              <div class="text">
+                Ronaldo &hearts; Ronaldo
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4 reel-row">
+          <a
+            data-fancybox="bigbuckbunny"
+            data-width="1200"
+            data-height="680"
+            href="https://www.youtube.com/embed/x6qSMzUluTY"
+            style="text-decoration: none;"
+            class="card-hover"
+          >
+            <img
+              class="card-img-top"
+              src="img/image1.jpg"
+              alt="Card image cap"
+            />
+            <div class="middle">
+              <div class="text">
+                Ronaldo &hearts; Ronaldo
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4 reel-row">
+          <a
+            data-fancybox="bigbuckbunny"
+            data-width="1200"
+            data-height="680"
+            href="https://www.youtube.com/embed/x6qSMzUluTY"
+            style="text-decoration: none;"
+            class="card-hover"
+          >
+            <img
+              class="card-img-top"
+              src="img/image1.jpg"
+              alt="Card image cap"
+            />
+            <div class="middle">
+              <div class="text">
+                Ronaldo &hearts; Ronaldo
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 reel-row">
+          <a
+            data-fancybox="bigbuckbunny"
+            data-width="1200"
+            data-height="680"
+            href="https://www.youtube.com/embed/x6qSMzUluTY"
+            style="text-decoration: none;"
+            class="card-hover"
+          >
+            <img
+              class="card-img-top"
+              src="img/image1.jpg"
+              alt="Card image cap"
+            />
+            <div class="middle">
+              <div class="text">
+                Ronaldo &hearts; Ronaldo
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4 reel-row">
+          <a
+            data-fancybox="bigbuckbunny"
+            data-width="1200"
+            data-height="680"
+            href="https://www.youtube.com/embed/x6qSMzUluTY"
+            style="text-decoration: none;"
+            class="card-hover"
+          >
+            <img
+              class="card-img-top"
+              src="img/image1.jpg"
+              alt="Card image cap"
+            />
+            <div class="middle">
+              <div class="text">
+                Ronaldo &hearts; Ronaldo
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4 reel-row">
+          <a
+            data-fancybox="bigbuckbunny"
+            data-width="1200"
+            data-height="680"
+            href="https://www.youtube.com/embed/x6qSMzUluTY"
+            style="text-decoration: none;"
+            class="card-hover"
+          >
+            <img
+              class="card-img-top"
+              src="img/image1.jpg"
+              alt="Card image cap"
+            />
+            <div class="middle">
+              <div class="text">
+                Ronaldo &hearts; Ronaldo
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact us-->
+    <!--Footer-->
+    <footer class="mainfooter" id="contactUS">
+      <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="footer-pad">
+                <h3 class="contry-title">Country 1</h3>
+                <i
+                  class="fas fa-map-marker-alt float-left icon-placeing fa-2x"
+                  aria-hidden="true"
+                ></i>
+                <p class="footer-content-address">Address Line1</p>
+                <p class="footer-content-address">Address Line2</p>
+                <p class="footer-content-address">Location</p>
+                <i
+                  class="fas fa-mobile-alt float-left icon-placeing fa-lg"
+                  aria-hidden="true"
+                ></i>
+                <p class="footer-content-contact">+971543633188</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="footer-pad">
+                <h3 class="contry-title">Country 2</h3>
+                <i
+                  class="fas fa-map-marker-alt float-left icon-placeing fa-2x"
+                  aria-hidden="true"
+                ></i>
+                <p class="footer-content-address">Address Line1</p>
+                <p class="footer-content-address">Address Line2</p>
+                <p class="footer-content-address">Location</p>
+                <i
+                  class="fas fa-mobile-alt float-left icon-placeing fa-lg"
+                  aria-hidden="true"
+                ></i>
+                <p class="footer-content-contact">
+                  7687676876
+                </p>
+                <i
+                  class="fas fa-envelope float-left icon-placeing fa-lg"
+                  aria-hidden="true"
+                ></i>
+                <p class="footer-content-contact footer-content-mail ">
+                  h@Gmail.com
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <h3 class="contry-title">Follow Us</h3>
+              <div class="icons-div">
+                <a href="" class=" social-fb" target="_blank"
+                  ><i
+                    class=" fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
+                  ></i
+                ></a>
+                <a href="" class="social-tw" target="_blank"
+                  ><i
+                    class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"
+                  ></i
+                ></a>
+
+                <a href="" class="social-insta" target="_blank"
+                  ><i
+                    class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"
+                  ></i
+                ></a>
+                <a href="" class="social-youtube" target="_blank"
+                  ><i
+                    class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 copy">
+              <p class="text-center">
+                &copy; Copyright 2019. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
